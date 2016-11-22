@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-namespace SimpleAspNetMvcArchProject.Model
-{
-    public interface IAuditableEntity 
-    {
-        DateTime CreatedDate { get; set; }
-     
-        string CreatedBy { get; set; }
 
-        DateTime UpdatedDate { get; set; }
-             
+namespace SimpleAspNetMvcArchProject.Data
+{
+    public interface IAuditableEntity
+    {
+        string CreatedBy { get; set; }
+        DateTime CreatedDate { get; set; }
         string UpdatedBy { get; set; }
+        DateTime UpdatedDate { get; set; }
     }
 }

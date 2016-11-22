@@ -6,8 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using SimpleAspNetMvcArchProject.Model;
+using SimpleAspNetMvcArchProject.Data;
 using SimpleAspNetMvcArchProject.Service;
+using SimpleAspNetMvcArchProject.Data.Domain;
 
 namespace SimpleAspNetMvcArchProject.Controllers
 {
@@ -54,7 +55,7 @@ namespace SimpleAspNetMvcArchProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Phone,Address,State,CountryId")] Person person)
+        public ActionResult Create([Bind(Include = "Id,Name,Phone,Address,City,CountryId")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +88,7 @@ namespace SimpleAspNetMvcArchProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Phone,Address,State,CountryId")] Person person)
+        public ActionResult Edit([Bind(Include = "Id,Name,Phone,Address,City,CountryId")] Person person)
         {
             if (ModelState.IsValid)
             {

@@ -88,9 +88,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Model.csproj">
+    <ProjectReference Include="..\SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Data.csproj">
       <Project>{d58fb484-fa36-46ba-a2b4-8b23b89ba449}</Project>
-      <Name>SimpleAspNetMvcArchProject.Model</Name>
+      <Name>SimpleAspNetMvcArchProject.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\SimpleAspNetMvcArchProject.Service\SimpleAspNetMvcArchProject.Service.csproj">
       <Project>{dffab407-5349-4091-a652-b4c8fac25bdd}</Project>

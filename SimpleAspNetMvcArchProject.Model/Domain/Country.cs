@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SimpleAspNetMvcArchProject.Model
+namespace SimpleAspNetMvcArchProject.Data.Domain
 {
-    public class Country : Entity<int>
+    public class Country : AuditableEntity
     {      
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(100)]

@@ -8,7 +8,7 @@ using Autofac.Integration.Mvc;
 using Autofac;
 using SimpleAspNetMvcArchProject.Modules;
 using System.Data.Entity;
-using SimpleAspNetMvcArchProject.Model;
+using SimpleAspNetMvcArchProject.Data;
 
 namespace SimpleAspNetMvcArchProject
 {
@@ -31,9 +31,6 @@ namespace SimpleAspNetMvcArchProject
             var container = builder.Build();
 
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
-
-
-            //
             Database.SetInitializer<SampleArchContext>(null);
         }
     }

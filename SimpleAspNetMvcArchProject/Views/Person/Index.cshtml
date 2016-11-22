@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SimpleAspNetMvcArchProject.Model.Person>
+﻿@model IEnumerable<SimpleAspNetMvcArchProject.Data.Domain.Person>
 
 @{
     ViewBag.Title = "Index";
@@ -24,7 +24,7 @@
             @Html.DisplayNameFor(model => model.Address)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.State)
+            @Html.DisplayNameFor(model => model.City)
         </th>
         <th></th>
     </tr>
@@ -44,7 +44,7 @@
             @Html.DisplayFor(modelItem => item.Address)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.State)
+            @Html.DisplayFor(modelItem => item.City)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

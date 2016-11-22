@@ -6,8 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using SimpleAspNetMvcArchProject.Model;
+using SimpleAspNetMvcArchProject.Data;
 using SimpleAspNetMvcArchProject.Service;
+using SimpleAspNetMvcArchProject.Data.Domain;
 
 namespace SimpleAspNetMvcArchProject.Controllers
 {

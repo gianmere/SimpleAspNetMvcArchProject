@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SimpleAspNetMvcArchProject.Model
+namespace SimpleAspNetMvcArchProject.Data.Domain
 {
     [Table("Person")]
-    public class Person : AuditableEntity<long>
-    {       
+    public class Person: AuditableEntity
+    {
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(50)]
@@ -26,7 +22,7 @@ namespace SimpleAspNetMvcArchProject.Model
 
         [Required]
         [MaxLength(50)]
-        public string State { get; set; }
+        public string City { get; set; }
 
         [Display(Name="Country")]
         public int CountryId { get; set;  }

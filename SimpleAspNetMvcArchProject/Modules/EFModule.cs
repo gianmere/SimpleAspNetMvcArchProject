@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using Autofac;
-using SimpleAspNetMvcArchProject.Model;
+using SimpleAspNetMvcArchProject.Data;
 
 namespace SimpleAspNetMvcArchProject.Modules
 {

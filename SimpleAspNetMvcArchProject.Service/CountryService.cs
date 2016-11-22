@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SimpleAspNetMvcArchProject.Model;
+﻿using System.Linq;
+using SimpleAspNetMvcArchProject.Data;
+using SimpleAspNetMvcArchProject.Data.Domain;
 
 namespace SimpleAspNetMvcArchProject.Service
 {

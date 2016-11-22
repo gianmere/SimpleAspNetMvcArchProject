@@ -61,9 +61,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Model.csproj">
+    <ProjectReference Include="..\SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Data.csproj">
       <Project>{d58fb484-fa36-46ba-a2b4-8b23b89ba449}</Project>
-      <Name>SimpleAspNetMvcArchProject.Model</Name>
+      <Name>SimpleAspNetMvcArchProject.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

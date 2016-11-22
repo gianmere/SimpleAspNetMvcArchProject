@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using SimpleAspNetMvcArchProject.Controllers;
-using SimpleAspNetMvcArchProject.Model;
 using SimpleAspNetMvcArchProject.Service;
 using System.Web.Mvc;
-
+using SimpleAspNetMvcArchProject.Data.Domain;
 
 namespace SimpleAspNetMvcArchProject.Test.Controllers
 {

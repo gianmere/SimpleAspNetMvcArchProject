@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleAspNetMvcArchProject.Model
+namespace SimpleAspNetMvcArchProject.Data
 {
-    public abstract class AuditableEntity<T> : Entity<T>, IAuditableEntity    
+    public abstract class AuditableEntity: BaseEntity,IAuditableEntity
     {
         [ScaffoldColumn(false)]
         public DateTime CreatedDate { get; set; }

@@ -1,4 +1,4 @@
-﻿@model SimpleAspNetMvcArchProject.Model.Person
+﻿@model SimpleAspNetMvcArchProject.Data.Domain.Person
 
 @{
     ViewBag.Title = "Details";
@@ -43,11 +43,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.State)
+            @Html.DisplayNameFor(model => model.City)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.State)
+            @Html.DisplayFor(model => model.City)
         </dd>
 
     </dl>

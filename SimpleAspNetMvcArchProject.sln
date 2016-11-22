@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspNetMvcArchProject", "SimpleAspNetMvcArchProject\SimpleAspNetMvcArchProject.csproj", "{8EE00434-2F04-473B-A645-0DA04BFF3700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspNetMvcArchProject.Model", "SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Model.csproj", "{D58FB484-FA36-46BA-A2B4-8B23B89BA449}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspNetMvcArchProject.Data", "SimpleAspNetMvcArchProject.Model\SimpleAspNetMvcArchProject.Data.csproj", "{D58FB484-FA36-46BA-A2B4-8B23B89BA449}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAspNetMvcArchProject.Service", "SimpleAspNetMvcArchProject.Service\SimpleAspNetMvcArchProject.Service.csproj", "{DFFAB407-5349-4091-A652-B4C8FAC25BDD}"
 EndProject
